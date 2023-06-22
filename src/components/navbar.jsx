@@ -52,7 +52,7 @@ const NavBar = () => {
                     
                     <div className="line w-[25px] h-[3px] bg-green m-[5px] rounded-xl z-50"></div>
                 </div>
-                <div className={!nav ? "md:hidden fixed right-[-100%] top-0 w-[99%] border-2 border-midGreen h-full backdrop-blur-xl bg-midGreen/10 backdrop-opacity-10 rounded-l-full ease-in-out duration-500 ": ' md:hidden fixed right-0 top-0 w-[99%] border-2 border-midGreen h-full backdrop-blur-xl bg-midGreen/10 backdrop-opacity-10 rounded-l-full ease-in-out duration-300 '}>
+                <div className={!nav ? "md:hidden fixed right-[-100%] top-0 w-[99%] border-2 border-midGreen backdrop-blur-xl bg-veryDarkBlue h-screen backdrop-opacity-10 rounded-l-full ease-in-out duration-500 ": ' md:hidden fixed right-0 top-0 w-[99%] border-2 border-midGreen h-screen backdrop-blur-xl bg-veryDarkBlue backdrop-opacity-10 rounded-l-full ease-in-out duration-300 '}>
                     <ul className="  nav-links text-white  pt-24 text-center ">
                         <li className="p-5"><a href="#aboutSection">ABOUT</a></li>
                         <li className="p-5"><a href="#skillSection">SKILLS</a></li>
