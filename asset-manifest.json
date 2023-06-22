@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moosa-portfolio/static/css/main.443bf12f.css",
+    "main.js": "/moosa-portfolio/static/js/main.6ca1ae18.js",
+    "static/media/moosapic2.jpg": "/moosa-portfolio/static/media/moosapic2.306ea91c444cf8175027.jpg",
+    "index.html": "/moosa-portfolio/index.html",
+    "static/media/wave.svg": "/moosa-portfolio/static/media/wave.da0ae021e6c0de3854616768fcae8904.svg",
+    "main.443bf12f.css.map": "/moosa-portfolio/static/css/main.443bf12f.css.map",
+    "main.6ca1ae18.js.map": "/moosa-portfolio/static/js/main.6ca1ae18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.443bf12f.css",
+    "static/js/main.6ca1ae18.js"
+  ]
+}
