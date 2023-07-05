@@ -26,8 +26,8 @@ const NavBar = () => {
 
     const hoverBorder = "py-2 hover:border-b-2 border-green ease-in-out duration-100 transform origin-right hover:scale-x-0 hover:origin-left"
     return(
-        <header className={`fixed w-full shadow shadow-veryDarkBlue z-10 transition-transform duration-300 ease-in-out 
-        ${ visible ? 'translate-y-0' : '-translate-y-full'}`}>
+        <header className={`fixed top-0 w-full shadow shadow-veryDarkBlue z-10 transition-transform duration-300 ease-in-out 
+        ${ visible ? 'translate-y-0' : '-translate-y-24'}`}>
             <m.nav 
                 initial={{opacity:0}} 
                 animate={{opacity: 1 }}
