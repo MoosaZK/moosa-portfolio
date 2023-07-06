@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from "react";
-import { FaBeer } from 'react-icons/fa';
+import { FaTwitter, FaGithub, FaLinkedinIn, FaMailBulk } from 'react-icons/fa';
 import {motion as m} from 'framer-motion';
 
 
@@ -60,10 +60,10 @@ const NavBar = () => {
                         <li className="p-5"><a href="#contactSection">CONTACT</a></li>
                         <li className="p-5"><a href="MZK_Resume.html" className=" px-5 py-3 border-[3px] ease-in-out duration-300 border-green rounded-lg hover:bg-midGreen" target="_blank" rel="noopener noreferrer">RESUME.pdf</a></li>
                         <div className="socialLinks flex items-center justify-around mt-3 w-[70%] mx-auto">
-                            <div className="linksContainer"><a href="https://twitter.com/MoosaZk" target="_blank" rel="noopener noreferrer"><FaBeer /> </a></div>
-                            <div className="linksContainer"><a href="https://github.com/MoosaZK" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i></a></div>
-                            <div className="linksContainer"><a href="https://www.linkedin.com/in/moosa-zafar-5627261bb/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a></div>
-                            <div className="linksContainer"><a href="mailto:moosazkhan@gmail.com" target="_blank" rel="noopener noreferrer"></a></div>
+                            <div className="linksContainer"><a href="https://twitter.com/MoosaZk" target="_blank" rel="noopener noreferrer"><FaTwitter /> </a></div>
+                            <div className="linksContainer"><a href="https://github.com/MoosaZK" target="_blank" rel="noopener noreferrer"><FaGithub /></a></div>
+                            <div className="linksContainer"><a href="https://www.linkedin.com/in/moosa-zafar-5627261bb/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></div>
+                            <div className="linksContainer"><a href="mailto:moosazkhan@gmail.com" target="_blank" rel="noopener noreferrer"><FaMailBulk /></a></div>
                         </div>
                     </ul>
                 </div>    

@@ -1,7 +1,10 @@
-import React from 'react'
-import {motion} from 'framer-motion'
-import Wave from './waves/Waves'
+import React from 'react';
+import {motion} from 'framer-motion';
+import { FaTwitter, FaGithub, FaLinkedinIn, FaMailBulk } from 'react-icons/fa';
+import Wave from './waves/Waves';
 function Contact() {
+  const linkLogoStyle = "linksContainer mx-3 border-[3px] border-darkBlue p-3 rounded-full hover:scale-110 hover:border-darkGreen hover:text-green hover:bg-darkBlue ease-in-out duration-300";
+          
   return (
     <motion.section id='About'
     initial={{ y:100 }}
@@ -21,10 +24,16 @@ function Contact() {
           You are brave enough to ask that girl out. <br />
           Let us me be of service</p>
 
-            <button className=" my-10 px-5 py-3 border-[3px] ease-in-out duration-300 border-veryDarkBlue rounded-lg hover:border-lightBlue" target="_blank" rel="noopener noreferrer">
+            <button className=" mt-10 mb-5 px-5 py-3 border-[3px] hover:scale-110 ease-in-out duration-300 border-veryDarkBlue rounded-lg hover:border-darkGreen hover:text-green hover:bg-midGreen" target="_blank" rel="noopener noreferrer">
               <a className='font-semibold text-xl' href="">Say Hello</a></button>           
 
-          
+        <div className="socialLinks flex items-center justify-center mb-6 w-[70%] mx-auto">
+          <div className={linkLogoStyle}><a href="https://twitter.com/MoosaZk" target="_blank" rel="noopener noreferrer"><FaTwitter /> </a></div>
+          <div className={linkLogoStyle}><a href="https://github.com/MoosaZK" target="_blank" rel="noopener noreferrer"><FaGithub /></a></div>
+          <div className={linkLogoStyle}><a href="https://www.linkedin.com/in/moosa-zafar-5627261bb/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a></div>
+          <div className={linkLogoStyle}><a href="mailto:moosazkhan@gmail.com" target="_blank" rel="noopener noreferrer"><FaMailBulk /></a></div>
+        </div>
+
       </div>
 
 
