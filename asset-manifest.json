@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/moosa-portfolio/static/css/main.443bf12f.css",
-    "main.js": "/moosa-portfolio/static/js/main.6ca1ae18.js",
+    "main.css": "/moosa-portfolio/static/css/main.83b4b1e0.css",
+    "main.js": "/moosa-portfolio/static/js/main.1c4a9996.js",
     "static/media/moosapic2.jpg": "/moosa-portfolio/static/media/moosapic2.306ea91c444cf8175027.jpg",
+    "static/media/2wave.svg": "/moosa-portfolio/static/media/2wave.5d1fe3717ddf01bfddae81cb18cf8240.svg",
+    "static/media/1wave.svg": "/moosa-portfolio/static/media/1wave.f97c6c5b42092ab6b3a0213f0f518ff6.svg",
+    "static/media/4wave.svg": "/moosa-portfolio/static/media/4wave.a511cffb166827e15ce8c1cd4bb78361.svg",
+    "static/media/3wave.svg": "/moosa-portfolio/static/media/3wave.68a33d450ee2253b44ef402442f6df99.svg",
     "index.html": "/moosa-portfolio/index.html",
-    "static/media/wave.svg": "/moosa-portfolio/static/media/wave.da0ae021e6c0de3854616768fcae8904.svg",
-    "main.443bf12f.css.map": "/moosa-portfolio/static/css/main.443bf12f.css.map",
-    "main.6ca1ae18.js.map": "/moosa-portfolio/static/js/main.6ca1ae18.js.map"
+    "main.83b4b1e0.css.map": "/moosa-portfolio/static/css/main.83b4b1e0.css.map",
+    "main.1c4a9996.js.map": "/moosa-portfolio/static/js/main.1c4a9996.js.map"
   },
   "entrypoints": [
-    "static/css/main.443bf12f.css",
-    "static/js/main.6ca1ae18.js"
+    "static/css/main.83b4b1e0.css",
+    "static/js/main.1c4a9996.js"
   ]
 }
